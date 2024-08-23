@@ -125,7 +125,7 @@ button:hover {
     let isEditing = false;
     let currentEditIndex = null;
 
-    loadTodos();
+    document.addEventListener('DOMContentLoaded', loadTodos);
 
     function addTodo() {
 
